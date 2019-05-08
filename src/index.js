@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 
 //settings
-app.set('port', 8080);
+app.set('port', 8085);
 app.set('views', path.join(__dirname,'views'));
 app.engine('html', require('ejs').renderFile);
 app.set ('view engine', 'ejs');
