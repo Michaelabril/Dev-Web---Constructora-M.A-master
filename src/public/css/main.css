@@ -2,6 +2,8 @@
   background-image: url("https://j.gifs.com/g5mD4Z.gif");
   background-repeat: no-repeat;
   height: 500px;
+  display: block;
+  margin: auto
 }
 
 #section_contact {
