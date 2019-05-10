@@ -11,32 +11,34 @@
             .servicepage {
                 background-image: url("http://theorangemarket.com/wp-content/uploads/2008/10/Guerra-Precios-construccion.jpg");
                 background-repeat: no-repeat;
-                height: 500px;
-                width: 100%
+                height: auto;
+                display: block;
+                margin: 0px
             }
         </style>
 </head>
 
 <body>
     <% include partials/navigation.html %>
-
         <!--SECTION TOP IMAGEN-->
-        <div class="servicepage">
-            <p class="lead text-center col-md-9"><br><br><br><br><br>CONOCE NUESTRA AMPLIA OFERTA</p>
-            <h1 class="display-4 text-center col-md-9">Constructora M.A, S.A</h1>
-            <div class="container p-5">
-                <h4 class="display-5 text-center col-md-10 ml-5">Gracias a los años de experiencia, la dedicación y el esfuerzo, la contructora se ha convertido en una de las empresas mas respetadas del sector siendo su nombre sinónimo de seriedad y responsabilidad en todos sus servicios. </h4>
+        <div class="container-fluid servicepage text-dark ">
+            <div class="container p-5 ">
+                <p class="p-5">CONOCE NUESTRA AMPLIA OFERTA</p>
+                <h1 class="display-4 text-center col-md-9">Constructora M.A, S.A</h1>
+            </div>
+            <div class="container">
+                <h4 class="display-5 text-center col-md-12 ml-5">Gracias a los años de experiencia, la dedicación y el esfuerzo, la contructora se ha convertido en una de las empresas mas respetadas del sector siendo su nombre sinónimo de seriedad y responsabilidad en todos sus servicios. </h4>
             </div>
         </div>
         <hr>
 
         <!--SECTION SERVICES CARD-->
-        <div class="container-fluid mt-5" id="servicessection">
+        <div class="container-fluid mt-3" id="servicessection">
             <h2 class="text-center">
                 <STROng>NUESTROS SERVICIOS</STROng>
             </h2>
             <div class="row p-3">
-                <div class="card col-md-4 mt-3">
+                <div class="col-md-4 card mt-3" style="width: 50rem;">
                     <h4 class="text-center">Demoliciones y Fundaciones</h4>
                     <img class="card-img-top" src="images/vaciadocolumna.jpg" alt="Card image cap" height="200">
                     <div class="card-body">
@@ -46,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="card col-md-4 mt-3">
+                <div class="card col-md-4 mt-3" style="width: 50rem;">
                     <h4 class="text-center">Instalacion de cielo raso</h4>
                     <img class="card-img-top" src="images/gypsum2.jpg" alt="imagen de gypsum" height="200">
                     <div class="card-body">
