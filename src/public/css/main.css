@@ -1,21 +1,26 @@
 .fondotop {
-  background-image: url("https://j.gifs.com/g5mD4Z.gif");
-  background-repeat: no-repeat;
-  height: 500px;
-  display: block;
-  margin: auto
+    background-image: url("https://j.gifs.com/g5mD4Z.gif");
+    background-repeat: no-repeat;
+    height: 500px;
+    display: block;
+    margin: auto
 }
 
 #section_contact {
-  background-image: url("https://www.esan.edu.pe/conexion/actualidad/2018/09/14/1500x844_alineacion_negocio_ti.jpg");
-  background-repeat: no-repeat;
-  height: 300px;
-}
-.bg-dark{
-  background: rgba(0,2,0,0.2)!important;
+    background-image: url("https://www.esan.edu.pe/conexion/actualidad/2018/09/14/1500x844_alineacion_negocio_ti.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
 }
 
-.slider {background: #200122;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.bg-dark {
+    background: rgba(0, 2, 0, 0.2)!important;
+}
+
+.slider {
+    background: #200122;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
