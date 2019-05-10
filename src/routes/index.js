@@ -15,8 +15,8 @@ router.get('/contact', (req, res) => {
 router.get('/services', (req, res) => {
     res.render('services.html');
 });
-router.get('/trabajos', (req, res) => {
-    res.render('trabajos.html');
+router.get('/proyectos', (req, res) => {
+    res.render('proyectos.html');
 });
 
 module.exports = router;
