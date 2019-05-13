@@ -19,4 +19,7 @@ router.get('/proyectos', (req, res) => {
     res.render('proyectos.html');
 });
 
+router.get('/about', (req, res) => {
+    res.render('about.html');
+});
 module.exports = router;
