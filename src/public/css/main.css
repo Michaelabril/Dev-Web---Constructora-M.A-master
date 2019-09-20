@@ -1,19 +1,13 @@
 .fondotop {
-    background-image: url("https://j.gifs.com/g5mD4Z.gif");
-    background-repeat: no-repeat;
+    background-image: url("https://www.arquired.com.mx/wp-content/uploads/2016/09/pulsoinmobiliariotm.jpg");
     height: 500px;
     display: block;
     margin: auto
+    
 }
-
-#section_contact {
-    background-image: url("https://www.esan.edu.pe/conexion/actualidad/2018/09/14/1500x844_alineacion_negocio_ti.jpg");
-    background-repeat: no-repeat;
-    height: auto;
-}
-
-.bg-dark {
-    background: rgba(0, 2, 0, 0.2)!important;
+nav{
+    background: transparent !important;
+    color: #6f0000
 }
 
 .slider {
