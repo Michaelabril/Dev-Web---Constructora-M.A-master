@@ -2,6 +2,11 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
+
+//entiende los datos del formulario
+app.use(express.urlencoded({extended: false})); 
+app.use(express.json());
+
 //settings
 app.set('port', process.env.PORT || 8080);
 app.set('views', path.join(__dirname, 'views'));

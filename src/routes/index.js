@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-
+const nodemailer = require('nodemailer')
 //route view page path
 router.get('/', (req, res) => {
-    res.render('index.html', { tile: 'ConstructoraMA' });
+    res.render('index.html', { title: 'ConstructoraMA' });
 });
 
 //route view contact page
@@ -21,5 +21,39 @@ router.get('/proyectos', (req, res) => {
 
 router.get('/about', (req, res) => {
     res.render('about.html');
+});
+router.post('/send-email', async (req, res) => {
+    const {name, email, phone, message} = req.body;        
+    contentHTML = `
+        <h1>User Information</h1>
+        <ul>
+            <li>Username: ${name}</li>
+            <li>User Email: ${email}</li>
+            <li>PhoneNumber: ${phone}</li>
+        </ul>
+        <p>${message}</p>
+    `;
+    const transporter= nodemailer.createTransport({
+        host:'mail.constructorama.x10.mx', //host de correo a donde se va enviar 
+        port:25,
+        secure: false,
+        auth:{
+            user:'testemail@constructorama.x10.mx',//usuario donde se recibe el correo
+            pass:'123456mc' //
+        },
+        tls:{
+            rejectUnauthorized: false
+        }
+    });
+
+   const info = await transporter.sendMail({
+        from: '"servidor de prueba" <testemail@constructorama.x10.mx>', // host de correo 
+        to: 'michaelalejandroabrilmarmolejo@gmail.com',
+        subject: 'website message',
+        html: contentHTML
+    });
+
+    console.log("messaje sent", info.messajeId);
+    res.redirect('/');
 });
 module.exports = router;

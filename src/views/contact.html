@@ -18,21 +18,21 @@
         </div>
 
         <div class="row mt-3">
-            <form class="col-md-8 p-5 ">
+            <form action="/send-email" method="POST" class="col-md-8 p-5 ">
                 <h2><strong>Formulario de contacto</strong></h2>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputAddress4">Nombre completo:</label>
-                        <input type="text" class="form-control bg-dark" id="inputAddress2" placeholder="Nombre completo">
+                        <input type="text" name="name" class="form-control bg-dark" autofocus id="inputAddress2" placeholder="Nombre completo">
                     </div>
 
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email:</label>
-                        <input type="email" class="form-control bg-dark" id="inputEmail4" placeholder="Email">
+                        <input type="email" name="email" class="form-control bg-dark" id="inputEmail4" placeholder="Email">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputTel4">Telefono</label>
-                        <input type="password" class="form-control bg-dark" id="inputTel4" placeholder="telefono">
+                        <input type="text" name="phone" class="form-control bg-dark" id="inputTel4" placeholder="telefono">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputAddress">Empresa</label>
@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="form-group col-md-12">
-                        <textarea class="form-control" name="" id=" " rows="auto" cols="30" placeholder="Mensaje"></textarea>
+                        <textarea name="message" class="form-control" rows="auto" cols="30" placeholder="Mensaje"></textarea>
                     </div>
                     <div class="form-group">
                         <button class="btn btn-prymary btn-block bg-dark text-white">Enviar Mensaje</button>

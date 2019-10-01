@@ -1,6 +1,7 @@
 {
   "name": "Dev-Web---Constructora-M.A-master",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "dependencies": {
