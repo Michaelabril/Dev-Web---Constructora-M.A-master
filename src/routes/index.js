@@ -25,7 +25,7 @@ router.get('/about', (req, res) => {
 router.post('/send-email', async (req, res) => {
     const {name, email, phone, message} = req.body;        
     contentHTML = `
-        <h1>User Information</h1>
+        <h1>Detalle del usuario</h1>
         <ul>
             <li>Username: ${name}</li>
             <li>User Email: ${email}</li>
@@ -47,13 +47,13 @@ router.post('/send-email', async (req, res) => {
     });
 
    const info = await transporter.sendMail({
-        from: '"servidor de prueba" <testemail@constructorama.x10.mx>', // host de correo 
+        from: '"servidor de correos" <testemail@constructorama.x10.mx>', // host de correo 
         to: 'michaelalejandroabrilmarmolejo@gmail.com',
-        subject: 'website message',
+        subject: 'servicio',
         html: contentHTML
     });
 
-    console.log("messaje sent", info.messajeId);
+    console.log("mensaje enviado", info.messajeId);
     res.redirect('/');
 });
 module.exports = router;
