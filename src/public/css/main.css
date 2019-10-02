@@ -5,10 +5,19 @@
     margin: auto
     
 }
+
 nav{
     background: transparent !important;
     color: #6f0000
 }
+
+
+.bg-info{
+    background: rgb(35, 120, 182 ) !important
+}
+
+.btnnavbar {
+    background-color: rgb(35, 120, 182) }
 
 .slider {
     background: #200122;
@@ -17,4 +26,22 @@ nav{
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6f0000, #200122);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer{
+    background: rgb(35, 120, 182 );
+    color:white;}
+
+.footer .links ul{
+    list-style-type: none; 
+}
+    
+.footer ul li a{
+    transition: 1s;
+    color: white
+}
+
+.footer .links ul li a:hover{
+    text-decoration:none;
+    color:coral;
 }

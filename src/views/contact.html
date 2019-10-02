@@ -18,36 +18,37 @@
         </div>
 
         <div class="row mt-3">
-            <form action="/send-email" method="POST" class="col-md-8 p-5 ">
-                <h2><strong>Formulario de contacto</strong></h2>
+           <div class="col-md-7 p-5 ml-5 ">
+                <form action="/send-email" method="POST" >
+                <h2 class="text-center"><strong>Formulario de contacto</strong></h2>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputAddress4">Nombre completo:</label>
-                        <input type="text" name="name" class="form-control bg-dark" autofocus id="inputAddress2" placeholder="Nombre completo">
+                        <input type="text" name="name" class="form-control" autofocus id="inputAddress2" placeholder="Nombre completo">
                     </div>
 
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email:</label>
-                        <input type="email" name="email" class="form-control bg-dark" id="inputEmail4" placeholder="Email">
+                        <input type="email" name="email" class="form-control " id="inputEmail4" placeholder="Email">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputTel4">Telefono</label>
-                        <input type="text" name="phone" class="form-control bg-dark" id="inputTel4" placeholder="telefono">
+                        <input type="text" name="phone" class="form-control " id="inputTel4" placeholder="telefono">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputAddress">Empresa</label>
-                        <input type="text" class="form-control bg-dark" id="inputAddress" placeholder="empresa">
+                        <input type="text" class="form-control " id="inputAddress" placeholder="empresa">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputState">Asunto</label>
-                        <select id="inputState" class="form-control bg-dark">
+                        <select id="inputState" class="form-control">
                         <option selected>Cotizaciòn</option>
                         <option>Servicio</option>
                     </select>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputCity">Direcciòn</label>
-                        <input type="text" class="form-control bg-dark" id="inputCity" placeholder="locaciòn">
+                        <input type="text" class="form-control " id="inputCity" placeholder="locaciòn">
                     </div>
 
                     <div class="form-group col-md-12">
@@ -59,26 +60,17 @@
 
                 </div>
             </form>
-            <div class="col-md-4 ooffset-md-8 ml-auto text-inline p-5">
+           </div>
+            <div class="col-md-4 ooffset-md-8 text-inline p-5 ">
                 <h2 class="text-center"><strong>INFORMACIÒN</strong></h2>
-                <div class="">
+                <div class="text-center">
                     <p class="text-justify p-2">En Constructora MA,SA contamos con un equipo especializado en mantenimiento preventivo y reparaciones estructurales, con los más altos estándares de excelencia, seguridad y confianza, que garantizan la vida útil y el valor de las
                         infraestructuras que intervenimos. Nos caracterizamos dentro del ambito por Proteger las inversiones de nuestros Clientes.
                     </p>
-
-                    <ul class="list-unstyled text-justify">
-                        <li><i class="text-danger fas fa-map-marker-alt fa-2x p-2"></i> Panama, AV 1a B Nte, Ph Ana Rosa
-                        </li>
-                        <li><i class="text-dark fas fa-phone fa-2x p-2"></i> 6345-7069</li>
-                        <li> <i class="text-dark far fa-envelope fa-2x p-2"></i> Constructorama@gmail.com </li>
-                        <li> <i class="text-success fab fa-whatsapp fa-2x p-2"></i> ConstructoraMA</li>
-                        <li> <i class="text-primary fab fa-facebook-f fa-2x p-2"></i> Constructora M.A </li>
-                    </ul>
+                    <img src="images/logo.png" class="rounded-circle" alt="Constructora M.A" width="300" height="150">
                 </div>
-
             </div>
         </div>
-
         <% include partials/footer.html %>
 </body>
 
