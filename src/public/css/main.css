@@ -37,8 +37,6 @@ nav ul li a:hover{
 .section_fixed{
     transform: translateY(-100px);
     background: white
-
-
 }
 
 .card_index .card:hover{
@@ -72,6 +70,15 @@ nav ul li a:hover{
     background: rgb(35, 120, 182 );
 }
 
+.semb-val{
+    transform: translateY(-280px);
+    position: absolute;
+    left: 400PX;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
 .footer{
     background: rgb(35, 120, 182 );
     color:white;}
@@ -79,10 +86,11 @@ nav ul li a:hover{
 .footer .links ul{
     list-style-type: none; 
 }
-    
+ 
 .footer ul li a{
     transition: 1s;
-    color: white
+    color: white;
+    font-size: 20px;
 }
 
 .footer .links ul li a:hover{
