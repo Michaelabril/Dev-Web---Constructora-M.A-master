@@ -1,6 +1,6 @@
 # PAGINA WEB DE LA SOCIEDAD CONSTRUCTORA MA-SA
   
-![Captura](src/public/images/captuteimage.png)
+![Captura](/src/public/images/captureImage.png)
         
 ## Preconditions
 
