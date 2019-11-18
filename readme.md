@@ -24,8 +24,9 @@
     
     **- nodemon**
     
-    Note: To install these settings you must run the following command
-      **- npm i ejs express nodemailer morgan nodemon**
+        Note: To install these settings you must run the following command
+    
+        npm i ejs express nodemailer morgan nodemon**
 
 ## Installation
     Installation is simple. The basic dependencies are standard Unix utilities / commands. If you experience some problems
