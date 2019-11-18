@@ -1,8 +1,8 @@
 {
-  "name": "Dev-Web---Constructora-M.A-master",
-  "version": "1.0.0",
+  "name": "ma",
+  "version": "1.0.1",
   "private": true,
-  "description": "",
+  "description": "PROYECTO DE LA CONSTRUCTORA MA-SA",
   "main": "index.js",
   "dependencies": {
     "ejs": "^2.6.1",
@@ -13,7 +13,6 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    
     "nodemon": "^1.19.3"
   },
   "scripts": {
@@ -21,6 +20,14 @@
     "dev": "nodemon src"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "MICHAELABRIL",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michaelabril/Dev-Web---Constructora-M.A-master.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Michaelabril/Dev-Web---Constructora-M.A-master/issues"
+  },
+  "homepage": "https://github.com/Michaelabril/Dev-Web---Constructora-M.A-master#readme"
 }
